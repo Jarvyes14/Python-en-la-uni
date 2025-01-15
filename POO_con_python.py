@@ -45,10 +45,10 @@ class Personaje:
     def __str__(self):
         return "Soy un personaje"
 
-mi_personaje = Personaje("Gandalf", 10, 100, 5, 20)
+mi_personaje = Personaje("Gandalf", 100, 100, 5, 20)
 mi_personaje.imprimir_atributos
 print("-----------------------")
-tu_personaje = Personaje("Legolas", 15, 100, 10, 10)
+tu_personaje = Personaje("Legolas", 150, 100, 10, 10)
 tu_personaje.imprimir_atributos
 print("-----------------------")
 print(tu_personaje.dañar(mi_personaje))
