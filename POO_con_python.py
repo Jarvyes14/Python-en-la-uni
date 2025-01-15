@@ -38,6 +38,7 @@ class Personaje:
     def dañar(self, enemigo):
         daño = self.fuerza - enemigo.defensa
         enemigo.vida -= daño
+        #Arreglado
         if enemigo.vida <= 0:
             enemigo.morir()
         return f"El enemigo ha recibido {daño} puntos de daño"
