@@ -46,11 +46,6 @@ class Personaje:
     def __str__(self):
         return "Soy un personaje"
 
-class Guerrero(Personaje):
-    pass
-
-tlatoani = Guerrero("Tlatoani", 10, 100, 5, 20)
-
 mi_personaje = Personaje("Gandalf", 10, 100, 5, 20)
 mi_personaje.imprimir_atributos
 print("-----------------------")
